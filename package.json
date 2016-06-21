@@ -1,10 +1,10 @@
 {
-  "name": "template",
+  "name": "Alien Farm",
   "version": "1.0.3",
   "scripts": {
     "dev": "LEVEL=silly PORT=3333 nodemon dst/server.js"
   },
-  "author": "Chyld Medford",
+  "author": "Daniel Crussi and Joe Irons",
   "license": "MIT",
   "devDependencies": {
   },
