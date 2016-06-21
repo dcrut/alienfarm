@@ -1,0 +1,15 @@
+extends ../shared/template
+block title
+  h1 Aliens List Page
+block content
+
+  .row
+    .col-md-12
+    each alien in aliens
+      .row
+        .col-xs-4
+          a(href='/aliens/' + alien.id)= alien.name
+        .col-xs-4
+          img.img-responsive.thumbnail.alien(src=alien.photo)
+        .col-xs-4
+          h5 #{alien.planet}

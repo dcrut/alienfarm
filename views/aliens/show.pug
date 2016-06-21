@@ -1,0 +1,15 @@
+extends ../shared/template
+block title
+  h1 Alien Show Detail
+block content
+
+  .row
+    .col-md-12
+      .row
+        .col-xs-2
+          h5= alien.name
+        .col-xs-2
+          h5= alien.planet
+      .row
+        .col-xs-4
+          img.img-responsive.thumbnail.alien(src=alien.photo)
